@@ -1,0 +1,476 @@
+@media screen and (min-width:1024px){
+/*퀴즈 1번부터 4번*/
+/*1번*/
+#quiz1div1{
+  height : 80%;
+  width : 90%;
+  margin : 5% auto;
+ z-index: 2000;
+ background-size :100% 100%;
+ background-repeat: no-repeat;
+}
+
+#quiz1closebtn
+{
+  height : 30px;
+  width :100px;
+  position: absolute;
+  background:  transparent;
+  top : 15%;
+  left : 89%;
+  z-index: 2002;
+  border : none;
+  display: none;
+}
+#quiz1closebtn:hover{
+  cursor: pointer;
+}
+#quiz1div2{
+  height : 90%;
+  width : 95%;
+  position: relative;
+  left: 2.5%;
+  top : 5%;
+  display: block;
+  z-index: 2001;
+}
+
+
+
+#quiz1quizimg{
+  width : 72%;
+  height : 8%;
+  position: absolute;
+  left: 18%;
+  top : 16%;
+  z-index: 2001;
+  font-size: 19pt;
+  font-family:OTSoolaejabkiRA;
+text-align: left;
+}
+
+#quiz1div2 ul{
+  height : 60%;
+  width : 60%;
+  list-style-type: none;
+  position: absolute;
+  left: 17%;
+  top : 24%;
+}
+#quiz1div2 li{
+  height :13%;
+  width : 30%;
+  margin-top : 2%;
+
+}
+
+#quiz1ansimg{
+  width : 30%;
+  height :20%;
+  position: absolute;
+  left: 50%;
+  top : 40%;
+  z-index: 2001;
+  display: none;
+}
+
+#quiz1tryimg{
+  width : 30%;
+  height : 20%;
+  position: absolute;
+  left: 50%;
+  top : 40%;
+  z-index: 2001;
+    display: none;
+}
+
+.quiz1divbtn{
+  height :100%;
+  width : 100%;
+    border : none;
+background:  transparent;
+font-family:OTSoolaejabkiRA;
+font-size : 18pt;
+text-align: left;
+}
+
+.quiz1divbtn:hover {
+    color: #d20000;
+    cursor:pointer;
+      border : none;
+      font-family:OTSoolaejabkiRA;
+      font-size : 18pt;
+      text-align: left;
+}
+
+#quiz1quizans{
+  width : 72%;
+  height : 8%;
+  position: absolute;
+  left: 18%;
+  top : 80%;
+    z-index: 2001;
+    font-family:OTSoolaejabkiRA;
+    font-size : 18pt;
+    text-align: left;
+        display: none;
+}
+
+
+/*2번*/
+
+#quiz2div1{
+  height : 80%;
+  width : 90%;
+  margin : 5% auto;
+ z-index: 2000;
+border : none;
+background-size :100% 100%;
+background-repeat: no-repeat;
+}
+
+#quiz2closebtn
+{
+  height : 30px;
+  width :100px;
+  position: absolute;
+  background:  transparent;
+  top : 15%;
+  left : 89%;
+  z-index: 2002;
+  border : none;
+  display: none;
+}
+#quiz2closebtn:hover{
+  cursor: pointer;
+}
+#quiz2div2{
+  height : 90%;
+  width : 95%;
+  position: relative;
+  left: 2.5%;
+  top : 5%;
+  display: block;
+  z-index: 2001;
+}
+
+
+#quiz2quizimg{
+  width : 73%;
+  height : 8%;
+  position: absolute;
+  left: 18%;
+  top : 15%;
+  z-index: 2001;
+  font-size: 19pt;
+  font-family:OTSoolaejabkiRA;
+text-align: left;
+}
+
+#quiz2div2 ul{
+  height : 60%;
+  width : 70%;
+  list-style-type: none;
+  position: absolute;
+  left: 16%;
+  top : 24%;
+}
+#quiz2div2 li{
+  height :13%;
+  width : 30%;
+  margin-top : 2%;
+
+}
+.quiz2divbtn{
+  height :100%;
+  width : 100%;
+    border : none;
+background:  transparent;
+font-family:OTSoolaejabkiRA;
+font-size : 18pt;
+text-align: left;
+}
+
+.quiz2divbtn:hover {
+    color: #d20000;
+      border : none;
+      cursor:pointer;
+      font-family:OTSoolaejabkiRA;
+      font-size : 18pt;
+      text-align: left;
+}
+
+
+#quiz2quizans{
+  width: 70%;
+  height : 15%;
+  position: absolute;
+  left: 18%;
+  top : 80%;
+    z-index: 2001;
+    font-family:OTSoolaejabkiRA;
+    font-size : 18pt;
+    text-align: left;
+    display: none;
+}
+
+
+
+#quiz2ansimg{
+  width : 30%;
+  height : 20%;
+  position: absolute;
+  left: 50%;
+  top : 40%;
+  z-index: 2001;
+  display: none;
+}
+
+#quiz2tryimg{
+  width : 30%;
+  height :20%;
+  position: absolute;
+  left: 50%;
+  top : 40%;
+  z-index: 2001;
+    display: none;
+}
+/*3번*/
+
+#quiz3div1{
+  height : 80%;
+  width : 90%;
+  margin : 5% auto;
+ z-index: 2000;
+ background-size :100% 100%;
+ background-repeat: no-repeat;
+border : none;
+}
+
+#quiz3closebtn
+{
+  height : 30px;
+  width :100px;
+  position: absolute;
+  background:  transparent;
+  top : 15%;
+  left : 89%;
+  z-index: 2002;
+  border : none;
+  display: none;
+}
+#quiz3closebtn:hover{
+  cursor: pointer;
+}
+#quiz3div2{
+  height : 90%;
+  width : 95%;
+  position: relative;
+  left: 2.5%;
+  top : 5%;
+  display: block;
+  z-index: 2001;
+}
+
+
+#quiz3quizimg{
+  width :50%;
+  height : 8%;
+  position: absolute;
+  left: 22%;
+  top : 16%;
+  z-index: 2001;
+  font-size: 19pt;
+  font-family:OTSoolaejabkiRA;
+text-align: left;
+}
+
+#quiz3div2 ul{
+  height : 60%;
+  width : 70%;
+  list-style-type: none;
+  position: absolute;
+  left: 20%;
+  top : 24%;
+}
+#quiz3div2 li{
+  height :13%;
+  width : 30%;
+  margin-top : 2%;
+
+}
+.quiz3divbtn{
+  height :100%;
+  width : 100%;
+    border : none;
+background:  transparent;
+font-family:OTSoolaejabkiRA;
+font-size : 18pt;
+text-align: left;
+}
+
+.quiz3divbtn:hover {
+    color: #d20000;
+      border : none;
+      cursor:pointer;
+      font-family:OTSoolaejabkiRA;
+      font-size : 18pt;
+      text-align: left;
+}
+
+
+#quiz3quizans{
+  width : 72%;
+  height : 8%;
+  position: absolute;
+  left: 22%;
+  top : 80%;
+    z-index: 2001;
+    font-family:OTSoolaejabkiRA;
+    font-size : 18pt;
+    text-align: left;
+    display: none;
+}
+
+
+#quiz3ansimg{
+  width : 30%;
+  height : 20%;
+  position: absolute;
+  left: 50%;
+  top : 40%;
+  z-index: 2001;
+  display: none;
+}
+
+#quiz3tryimg{
+  width : 30%;
+  height : 20%;
+  position: absolute;
+  left: 50%;
+  top : 40%;
+  z-index: 2001;
+    display: none;
+}
+
+/*4번*/
+
+#quiz4div1{
+  height : 80%;
+  width : 90%;
+  margin : 5% auto;
+ z-index: 2000;
+ background-size :100% 100%;
+ background-repeat: no-repeat;
+border : none;
+}
+
+#quiz4closebtn
+{
+  height : 30px;
+  width :100px;
+  position: absolute;
+  background:  transparent;
+  top : 15%;
+  left : 89%;
+  z-index: 2002;
+  border : none;
+  display: none;
+}
+#quiz4closebtn:hover{
+  cursor: pointer;
+}
+#quiz4div2{
+  height : 90%;
+  width : 95%;
+  position: relative;
+  left: 2.5%;
+  top : 5%;
+  display: block;
+  z-index: 2001;
+}
+
+
+#quiz4quizimg{
+  width : 65%;
+  height : 21%;
+  position: absolute;
+  left: 22%;
+  top : 11%;
+  z-index: 2001;
+  font-family:OTSoolaejabkiRA;
+  font-size : 19pt;
+  text-align: left;
+}
+
+#quiz4ul{
+  height : 60%;
+  width : 60%;
+  list-style-type: none;
+  position: absolute;
+  left: 20%;
+  top : 27%;
+}
+
+li{
+  height :13%;
+  width : 25%;
+  margin-top : 2%;
+
+}
+.quiz4divbtn{
+  height :100%;
+  width :85%;
+    border : none;
+background:  transparent;
+font-family:OTSoolaejabkiRA;
+font-size : 18pt;
+text-align: left;
+}
+
+.quiz4divbtn:hover {
+    color: #d20000;
+    cursor:pointer;
+      border : none;
+      font-family:OTSoolaejabkiRA;
+      font-size : 18pt;
+      text-align: left;
+}
+
+
+#quiz4quizans{
+  width : 68%;
+  height : 13%;
+  position: absolute;
+  left: 22%;
+  top : 80%;
+    z-index: 2001;
+    font-family:OTSoolaejabkiRA;
+    font-size : 18pt;
+    text-align: left;
+    display: none;
+}
+
+
+
+
+#quiz4ansimg{
+  width : 30%;
+  height :20%;
+  position: absolute;
+  left: 50%;
+  top : 40%;
+  z-index: 2001;
+  display: none;
+}
+
+#quiz4tryimg{
+  width : 30%;
+  height : 20%;
+  position: absolute;
+  left: 50%;
+  top : 40%;
+  z-index: 2001;
+    display: none;
+}
+}

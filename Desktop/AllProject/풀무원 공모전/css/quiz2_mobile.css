@@ -1,0 +1,536 @@
+@media screen and (min-width:400px) and (max-width:1023px){
+/*5번*/
+#quiz5div1{
+  height : 100%;
+  width : 100%;
+ z-index: 2000;
+ background-repeat: no-repeat;
+ background-size: 100% 100%;
+ margin : 0% auto;
+
+}
+#link{
+  color : black;
+  font-family:OTSoolaejabkiRA;
+  position: absolute;
+  font-size : 200%;
+  top : 90%;
+  left : 80
+}
+
+#quiz5closebtn
+{
+  height : 8%;
+  width :10%;
+  position: absolute;
+  background:  transparent;
+  top : 4%;
+  left : 89%;
+  z-index: 2002;
+  border : none;
+  display: none;
+}
+#quiz5closebtn:hover{
+  cursor: pointer;
+}
+#quiz5div2{
+  height : 80%;
+  width : 85%;
+  position: relative;
+  left: 2.5%;
+  top : 5%;
+  display: block;
+  z-index: 2001;
+}
+
+
+
+#quiz5quizimg{
+  width : 65%;
+  height : 15%;
+  position: absolute;
+  left: 24%;
+  top : 12%;
+  z-index: 2001;
+  font-family:OTSoolaejabkiRA;
+  font-size:90%;
+  text-align: left;
+}
+
+#quiz5ul{
+  height : 60%;
+  width :55%;
+  list-style-type: none;
+  position: absolute;
+  left: 21%;
+  top : 22%;
+}
+
+
+
+#quiz5ul li{
+  height :15%;
+  width : 75%;
+  margin-top : 2%;
+
+}
+
+
+.quiz5divbtn{
+  height :100%;
+  width :70%;
+
+    border : none;
+background:  transparent;
+font-family:OTSoolaejabkiRA;
+font-size :80%;
+text-align: left;
+}
+
+.quiz5divbtn:hover {
+    color: #d20000;
+    cursor:pointer;
+      border : none;
+      font-family:OTSoolaejabkiRA;
+font-size :90%;
+      text-align: left;
+}
+
+
+
+#quiz5quizans{
+  width : 45%;
+  height : 8%;
+  position: absolute;
+  left: 24%;
+  top : 82%;
+    z-index: 2001;
+    font-family:OTSoolaejabkiRA;
+      font-size :80%;
+    text-align: left;
+    display : none;
+      padding :2px;
+      background-color : #b3ffec;
+      border: 1px solid #b3ffec;
+     border-radius: 5px;
+}
+
+#quiz5ansimg{
+  width : 30%;
+  height : 20%;
+  position: absolute;
+  left: 60%;
+  top : 40%;
+  z-index: 2001;
+  display: none;
+}
+
+#quiz5tryimg{
+  width : 30%;
+  height :20%;
+  position: absolute;
+  left: 60%;
+  top : 40%;
+  z-index: 2001;
+    display: none;
+}
+
+
+
+/*6번*/
+#quiz6div1{
+  height : 100%;
+  width : 100%;
+ z-index: 2000;
+ background-repeat: no-repeat;
+ background-size: 100% 100%;
+ margin : 0% auto;
+
+}
+
+#quiz6closebtn
+{
+  height : 8%;
+  width :10%;
+  position: absolute;
+  background-size :100%;
+  background:  transparent;
+  top : 8%;
+  left : 89%;
+  z-index: 2002;
+  border : none;
+  display: none;
+}
+#quiz6closebtn:hover{
+  cursor: pointer;
+}
+#quiz6div2{
+  height : 80%;
+  width : 85%;
+  position: relative;
+  left: 2.5%;
+  top : 5%;
+  display: block;
+  z-index: 2001;
+}
+
+
+
+#quiz6quizimg{
+  width :30%;
+  height :8%;
+  position: absolute;
+  left: 28%;
+  top : 16%;
+  z-index: 2001;
+  font-family:OTSoolaejabkiRA;
+  font-size:90%;
+  text-align: left;
+}
+
+#quiz6div2 ul{
+  height : 60%;
+  width : 60%;
+  list-style-type: none;
+  position: absolute;
+  left: 25%;
+  top : 20%;
+}
+#quiz6div2 li{
+  height :13%;
+  width : 30%;
+  margin-top : 2%;
+
+}
+
+
+.quiz6divbtn{
+  height :100%;
+  width : 100%;
+  border : none;
+  background-color:  transparent;
+  font-family:OTSoolaejabkiRA;
+  font-size :90%;
+  text-align: left;
+}
+
+.quiz6divbtn:hover {
+  cursor:pointer;
+      border : #d20000;
+      font-family:OTSoolaejabkiRA;
+      font-size :90%;
+      text-align: left;
+}
+
+
+#quiz6quizans{
+  width : 45%;
+  height : 8%;
+  position: absolute;
+  left: 30%;
+  top : 80%;
+    z-index: 2001;
+      padding :2px;
+    font-family:OTSoolaejabkiRA;
+  font-size :80%;
+    text-align: left;
+    display: none;
+    background-color : #b3ffec;
+    border: 1px solid #b3ffec;
+   border-radius: 5px;
+}
+
+
+#quiz6ansimg{
+  width : 30%;
+  height :20%;
+  position: absolute;
+  left: 60%;
+  top : 40%;
+  z-index: 2001;
+  display: none;
+}
+
+#quiz6tryimg{
+  width : 30%;
+  height : 20%;
+  position: absolute;
+  left: 60%;
+  top : 40%;
+  z-index: 2001;
+    display: none;
+}
+
+/*7번*/
+#quiz7div1{
+  height : 100%;
+  width : 100%;
+ z-index: 2000;
+ background-repeat: no-repeat;
+ background-size: 100% 100%;
+ margin : 0% auto;
+
+}
+
+#quiz7closebtn
+{
+  height : 8%;
+  width :10%;
+  position: absolute;
+  background-size :100%;
+  background:  transparent;
+  top : 8%;
+  left : 89%;
+  z-index: 2002;
+  border : none;
+  display: none;
+}
+#quiz7closebtn:hover{
+  cursor: pointer;
+}
+#quiz7div2{
+  height : 80%;
+  width : 85%;
+  position: relative;
+  left: 2.5%;
+  top : 5%;
+  display: block;
+  z-index: 2001;
+}
+
+
+#quiz7quizimg{
+  width :45%;
+  height :8%;
+  position: absolute;
+  left: 30%;
+  top : 16%;
+  z-index: 2001;
+  font-family:OTSoolaejabkiRA;
+  font-size:90%;
+  text-align: left;
+}
+
+#quiz7div2 ul{
+  height : 60%;
+  width : 80%;
+  list-style-type: none;
+  position: absolute;
+  left: 28%;
+  top : 19%;
+}
+#quiz7div2 li{
+  height :13%;
+  width : 35%;
+  margin-top : 2%;
+
+}
+
+
+.quiz7divbtn{
+  height :100%;
+  width : 100%;
+  border : none;
+  background-color:  transparent;
+  font-family:OTSoolaejabkiRA;
+  font-size:90%;
+  text-align: left;
+}
+
+.quiz7divbtn:hover {
+color : #d20000;
+cursor:pointer;
+      border : none;
+      font-family:OTSoolaejabkiRA;
+      font-size:90%;
+      text-align: left;
+}
+
+
+#quiz7quizans{
+  width : 55%;
+  height : 8%;
+  position: absolute;
+  left: 30%;
+  top : 80%;
+    z-index: 2001;
+    font-family:OTSoolaejabkiRA;
+    font-size:80%;
+    text-align: left;
+    display: none;
+    padding :2px;
+    background-color : #b3ffec;
+    border: 1px solid #b3ffec;
+   border-radius: 5px;
+}
+
+
+#quiz7ansimg{
+  width : 30%;
+  height : 20%;
+  position: absolute;
+  left: 65%;
+  top : 40%;
+  z-index: 2001;
+  display: none;
+}
+
+#quiz7tryimg{
+  width : 30%;
+  height : 20%;
+  position: absolute;
+  left: 65%;
+  top : 40%;
+  z-index: 2001;
+    display: none;
+}
+
+
+/*8번*/
+#quiz8div1{
+  height : 100%;
+  width : 100%;
+ z-index: 2000;
+ background-repeat: no-repeat;
+ background-size: 100% 100%;
+ margin : 0% auto;
+
+}
+
+#quiz8closebtn
+{
+  height : 8%;
+  width :10%;
+  position: absolute;
+  background-size :100%;
+  background:  transparent;
+  top : 8%;
+  left : 89%;
+  z-index: 2002;
+  border : none;
+  display: none;
+}
+#quiz8closebtn:hover{
+  cursor: pointer;
+}
+#quiz8div2{
+  height : 80%;
+  width : 85%;
+  position: relative;
+  left: 2.5%;
+  top : 5%;
+  display: block;
+  z-index: 2001;
+
+}
+
+#quiz8quizimg{
+  width :50%;
+  height :8%;
+  position: absolute;
+  left: 30%;
+  top : 16%;
+  z-index: 2001;
+  font-family:OTSoolaejabkiRA;
+    font-size:90%;
+  text-align: left;
+}
+
+#quiz8div2 ul{
+  height : 60%;
+  width : 90%;
+  list-style-type: none;
+  position: absolute;
+  left: 28%;
+  top : 19%;
+}
+#quiz8div2 li{
+  height :13%;
+  width : 36%;
+  margin-top : 2%;
+
+}
+
+
+.quiz8divbtn{
+  height :100%;
+  width : 100%;
+  border : none;
+  background-color:  transparent;
+  font-family:OTSoolaejabkiRA;
+    font-size:90%;
+  text-align: left;
+}
+
+.quiz8divbtn:hover {
+  color : #d20000;
+  cursor:pointer;
+      border : none;
+      font-family:OTSoolaejabkiRA;
+      font-size:90%;
+      text-align: left;
+}
+
+
+#quiz8quizans{
+  width :42%;
+  height : 13%;
+  position: absolute;
+  left: 30%;
+  top : 80%;
+    z-index: 2001;
+    font-family:OTSoolaejabkiRA;
+    font-size:80%;
+    display: none;
+      padding :2px;
+      background-color : #b3ffec;
+      border: 1px solid #b3ffec;
+     border-radius: 5px;
+}
+
+#quiz8ansimg{
+  width : 30%;
+  height : 20%;
+  position: absolute;
+  left: 68%;
+  top : 40%;
+  z-index: 2001;
+  display: none;
+}
+
+#quiz8tryimg{
+  width : 30%;
+  height :20%;
+  position: absolute;
+  left: 68%;
+  top : 40%;
+  z-index: 2001;
+    display: none;
+}
+
+
+a:link {
+    color: #81b885;
+     text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #81b885;
+     text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  cursor:pointer;
+    color: #81b885;
+     text-decoration: none;
+}
+
+/* selected link */
+a:active {
+  cursor:pointer;
+    color: #81b885;
+     text-decoration: none;
+}
+}

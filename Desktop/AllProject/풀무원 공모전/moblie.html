@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<style>
+body
+{
+  cursor: crosshair;
+  font-family: Georgia, Helvetica, sans-serif;
+  font-weight: bold;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+#canvas-frame
+{
+
+}
+#joystick-box
+{
+
+}
+#joystick_base
+{
+  margin-top: 30%;
+  margin-bottom: 10%;
+}
+#joystick_stick
+{
+  margin-top: 30%;
+  margin-bottom: 10%;
+}
+#threejs-debug-box
+{
+  width: 100%;
+  height: 100%;
+}
+#hud {
+  left: 10px;
+  position: absolute;
+  top:  10px;
+  font-size: 30px;
+  font-family:"OTSoolaejabkiRA";
+  color: #ffffff;
+  z-index: 100;
+}
+#credits {
+  font-size: 12px;
+  position: absolute;
+  text-align: center;
+  top: 10px;
+  width: 100%;
+  z-index: 100;
+}
+
+
+#intro2{
+  background-image: url('images/screen1.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: #FFFFFF;
+  font-size: 40px;
+  opacity: 0.999;
+  font-family: "ERASBD";
+  text-align: center;
+  z-index: 1001;
+}
+#intro {
+  background-image: url('images/mobilescreen.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: #FFFFFF;
+  font-size: 40px;
+  opacity: 0.999;
+  font-family: "ERASBD";
+  text-align: center;
+  z-index: 1001;
+}
+.warning{
+  position: absolute;
+  left: 35%;
+  top:  10px;
+  font-size: 25px;
+  font-family: 'Courier New';
+  color: #ffffff;
+  z-index: 100;
+  opacity: 0.99;
+
+}
+#hurt {
+  background-color: red;
+  display: none;
+  left: 0;
+  opacity: 0.15;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  z-index: 1002;
+}
+#container
+{
+  box-sizing: border-box;
+  height: 100%;
+  left: 0;
+  margin: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+#blocker
+{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  /*background-color: rgba(0, 0, 0, 0.5);*/
+}
+
+#status
+{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  font-size: 30px;
+  font-family: 'Courier New';
+  display: -webkit-box;
+  display: -moz-box;
+  color: #ffffff;
+  -webkit-box-orient: horizontal;
+  -moz-box-orient: horizontal;
+}
+#jewel
+{
+  padding-top: 4px;
+  width: 15%;
+  height: 15%;
+}
+#wrapper
+{
+  margin : 0 auto;
+}
+#success{
+  background: url('images/pulmuone-logo.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  opacity: 0.99;
+}
+
+
+@font-face{
+  font-family:"OTSoolaejabkiRA";
+  src: url("OTSoolaejabkiRA.woff")format("woff");
+  font-weight:normal;
+  font-style:normal;
+}
+@font-face{
+  font-family:"ERASBD";
+  src:url("ERASBD.woff")format("woff");
+  font-weight:normal;
+  font-style:normal;
+}
+</style>
+<script>
+var effect = new Audio('sound/pulmuoneSong.mp3');
+effect.volume=0.5;
+effect.play();
+</script>
+<head>
+  <link rel="stylesheet" type="text/css">
+  <link rel="stylesheet" type="text/css" href="css/quiz1.css">
+  <link rel="stylesheet" type="text/css" href="css/quiz2.css">
+  <link rel="stylesheet" type="text/css" href="css/quiz1_mobile.css">
+  <link rel="stylesheet" type="text/css" href="css/quiz2_mobile.css">
+  <meta charset="utf-8"></meta>
+</head>
+
+<body>
+  <div id='container'></div>
+  <script src='javascripts/quiz.js'></script>
+  <script src="javascripts/jquery-1.7.2.min.js"></script>
+  <script src="javascripts/Three.js"></script>
+  <script src="javascripts/touch-fps-control.js"></script>
+  <script src="javascripts/virtualjoystick.js"></script>
+  <script src="javascripts/mobile.js"></script>
+  <div id="canvas-frame"></div>
+  <div id="space">
+    <div id="joystick-box">
+    </div>
+  </div>
+</body>
+</html>
